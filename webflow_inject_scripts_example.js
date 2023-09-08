@@ -1,11 +1,11 @@
 function injectInjectionScript() {
     const webflowURLs = {
         production: 'https://dev-emgas-navbar-nw.webflow.io/', // production URL for your Webflow site
-        staging: 'dev-emgas-navbar-nw.webflow.io/' // staging URL for your Webflow site
+        staging: 'https://dev-emgas-navbar-nw.webflow.io/' // staging URL for your Webflow site
     };
     const CDNURLs = {
-        production: 'https://42f99b43.repo-base.pages.dev/', // production URL for your custom code on CloudFlare CDN
-        staging: 'https://42f99b43.repo-base.pages.dev/' // staging URL for your custom code on CloudFlare CDN
+        production: 'https://repo-base.pages.dev/', // production URL for your custom code on CloudFlare CDN
+        staging: 'https://repo-base.pages.dev/' // staging URL for your custom code on CloudFlare CDN
     };
 
 
