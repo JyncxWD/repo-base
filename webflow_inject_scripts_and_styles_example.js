@@ -44,7 +44,8 @@ function injectInjectionScript() {
                 type: 'script',
                 path: 'scripts/script2.js?v=1',
             },
-            {   // some extra script that's not laoded on production
+            // some extra script that's not laoded on production
+            {   
                 type: 'script',
                 path: 'scripts/script3.js?v=1',
             },
